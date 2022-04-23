@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DC5D19"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/questionno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#edf7df"
+            android:gravity="center"
+            android:hint="Question # 1"
+            android:minHeight="48dp"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:autofillHints=""
+            android:inputType="TODO" />
+
+        <EditText
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#edf7df"
+            android:gravity="center"
+            android:hint="Enter Question"
+            android:minHeight="48dp"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:importantForAutofill="no"
+            android:inputType="TODO" />
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#edf7df"
+            android:gravity="center"
+            android:hint="Enter Answer"
+            android:minHeight="48dp"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/prevbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#f5e6d5"
+                android:hint="Prev"
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nextbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#f5e6d5"
+                android:hint="Next"
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

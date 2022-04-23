@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CSD_3183_Test_2_QuizApp</string>
+    <string name="quiz_3_create_quiz_1_3_q">QUIZ 3: Create Quiz(1-3 Q)</string>
+    <string name="question_1">QUESTION #1</string>
+    <string name="enter_question">ENTER QUESTION</string>
+    <string name="answer">ANSWER</string>
+    <string name="add">ADD</string>
+    <string name="delete">DELETE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="preview">PREVIEW</string>
+    <string name="update">UPDATE</string>
+</resources>
